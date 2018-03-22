@@ -1,0 +1,96 @@
+div{
+  background-color:#d8d8d6;
+  width:100%;
+  height:100vh;
+  position:relative;
+}
+
+h2{
+  position: absolute;
+  text-align: left;
+  font-family: arial;
+  font-weight: bold;
+  width:93%;
+  top: 3px;
+  margin-left: 2.5%;
+  padding-right: 5px;
+  font-stretch: ultra-expanded;
+  font-kerning: normal;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  width: 100%;
+}
+
+li{
+  float:left;
+  width: 33.3%;
+  text-align: center;
+  background: #3b3c3d;
+  color:white;
+  font-size: 12pt;
+  font-style:normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a{text-decoration: none;
+  color: white;
+  width: 400%;
+
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+li:hover{
+  float:left;
+  width: 33.3%;
+  text-align: center;
+  background: black;
+  color:white;
+  font-size: 12pt;
+  font-style:normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#child{
+  margin-left:2.5%
+}
+
+#sisters{
+  float: right;
+  margin-right:5%;
+}
+
+#headshot{
+  margin-left: 25%;
+}
+
+img{
+  height:200px;
+  width:200px;
+  float: left;
+  position: relative;
+  top: 100px;
+  margin:2% 5%;
+ }
+
+ #roommate{
+   clear: both;
+   margin-left:2.5%;
+ }
+
+ #mentor{
+   float: right;
+ }
+
+ #sidewalk{
+   margin-left:25%;
+ }
