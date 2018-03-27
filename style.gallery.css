@@ -60,6 +60,15 @@ li:hover{
   padding-bottom: 10px;
 }
 
+img{
+  height:200px;
+  width:200px;
+  float: left;
+  position: relative;
+  top: 100px;
+  margin:2% 5%;
+ }
+
 #child{
   margin-left:2.5%
 }
@@ -70,17 +79,8 @@ li:hover{
 }
 
 #headshot{
-  margin-left: 25%;
+  margin-left: 20%;
 }
-
-img{
-  height:200px;
-  width:200px;
-  float: left;
-  position: relative;
-  top: 100px;
-  margin:2% 5%;
- }
 
  #roommate{
    clear: both;
@@ -88,9 +88,93 @@ img{
  }
 
  #mentor{
-   float: right;
+   margin-left:20%;
  }
 
  #sidewalk{
-   margin-left:25%;
+   float:right;
  }
+
+ @media all and (max-width: 1080px) and (min-width:630px){
+
+   #headshot{
+     float:right;
+   }
+
+   #sisters{
+     clear: both;
+     float:left;
+     margin-left:2.5%;
+   }
+   #roommate{
+     clear: none;
+     float:right;
+   }
+
+   #sidewalk{
+     clear: both;
+     margin-left:2.5%;
+     float: left;
+   }
+
+   #mentor{
+     float:right;
+   }
+
+   div{
+     height: 1000px;
+   }
+ }
+
+ @media all and (max-width: 630px){
+   img{
+     height:200px;
+     width:200px;
+     display: block;
+    }
+
+    #child{
+      float:left;
+      clear: both;
+      margin-left: 50%;
+      transform: translatex(-50%);
+    }
+
+    #sisters{
+      float:left;
+      clear: both;
+      margin-left: 50%;
+      transform: translatex(-50%);
+    }
+
+    #headshot{
+      float:left;
+      clear: both;
+      margin-left: 50%;
+      transform: translatex(-50%);
+    }
+
+     #roommate{
+       float:left;
+       clear: both;
+       margin-left: 50%;
+       transform: translatex(-50%);
+     }
+
+     #mentor{
+       float:left;
+       clear: both;
+       margin-left: 50%;
+       transform: translatex(-50%);
+     }
+
+     #sidewalk{
+       float:left;
+       clear: both;
+       margin-left: 50%;
+       transform: translatex(-50%);
+     }
+
+     div{
+       height:1500px;
+     }
